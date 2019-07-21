@@ -1,0 +1,474 @@
+
+/** header */ 
+
+.header {
+    background-image: url("../imgs/office-compilation.jpg") ;
+    background-size: cover ; 
+    color: white ;
+    margin-bottom: 100px;
+    border-bottom: 1.5px solid darkorange ;
+
+ }
+
+ .overlay {
+     height: 100% ; 
+     width: 100% ;
+     background-color: rgba(49, 57, 60, .9)
+    }
+
+ /*  navbar */
+
+ nav {
+     text-transform: uppercase ;
+ }
+
+ .navbar-light .navbar-nav .nav-link {
+     color: white ; 
+ }
+ .navbar-light .navbar-nav .nav-link:hover {
+     color: darkorange ;
+ }
+
+.nav-title {
+    color: darkorange ; 
+}
+
+.navbar-toggler {
+    float: right; 
+    border-color: darkorange;
+    background-color: white ; 
+}
+
+.navbar-light .navbar-toggler {
+    color: darkorange ; 
+}
+
+/** header Content */ 
+
+.header-head {
+    text-transform: uppercase ; 
+    text-align: center ; 
+    font-weight: 1000 ;
+    margin-top: 100px;
+}
+
+.header-content {
+    text-align: center ; 
+    margin-bottom: 50px;
+}
+
+
+/* buttons */ 
+
+.buttons {
+    text-align: center ; 
+    margin-bottom: 50px;
+    height: 100px;
+}
+
+
+.btn-outline-light {
+    background-color: transparent  ;
+    border-color: white ;
+    border-width: .3px ;
+    transition: .5s all ;
+    height: 35px;
+    width : 120px;
+    font-size: 10px;
+    border-radius: 10px;
+    text-transform: uppercase ; 
+}
+.btn-outline-light:hover {
+    background-color: darkorange  ;
+    color: white ;
+    border-color: darkorange;
+}
+
+.down {
+    width: 37px ;
+    border-radius: 90px;
+    border-width: 2px;
+    text-align: center ;
+    background: transparent ;
+    border-color: darkorange ; 
+    color: darkorange ;
+    margin-right: 20px ;
+}
+
+.down:hover {
+    transform: rotate(360deg) ;
+}
+
+.to-down {
+    text-align: center ;
+    height: 100px;
+}
+
+.sizes {
+    height: 100px; 
+    padding: 20px;
+}
+
+
+/* features */ 
+
+.features {
+    border-bottom: 1.5px solid darkorange ;
+}
+.features .container .row  {
+    text-align: center ;
+    font-weight: 50 ; 
+}
+
+.fa-3x  {
+    color: darkorange ; 
+    margin-bottom: 20px;
+    border-radius: 100px;
+    opacity: .65;
+    transition: .9s all ;
+}
+
+.fa-3x:hover  {
+    opacity: 1;
+    transform: rotate(360deg) ;
+}
+
+.logo {    margin-bottom: 100px; }
+
+h3 {
+    font-weight: 100 ;
+}
+
+
+
+/* Subscripe */ 
+
+
+.supscripe {
+    background-image: url("../imgs/supscripe.jpg") ;
+    height: 200px;
+    background-size: cover ;
+    background-repeat: no-repeat;
+    border-bottom: 1.5px solid darkorange ;
+    margin-bottom: 50px;
+}
+
+form {
+    padding: 50px 50px; 
+}
+
+#my-input {
+    width: 50%;
+    margin: 0 auto ;
+    height: 35px;
+    margin-bottom: 20px; 
+    margin-top: 65px; 
+}
+
+#sub-btn {
+    background-color: darkorange  ;
+    border-color: white ;
+    border-width: .3px ;
+    transition: .5s all ;
+    height: 35px;
+    width : 30%;
+    font-size: 12px;
+    border-radius: 5px;
+    text-transform: uppercase ; 
+    border-color: darkorange ;
+    opacity: .9;
+    transition: .7s all ;
+}
+
+#sub-btn:hover {
+     background-color: transparent ; 
+     color: darkorange ; 
+     border: darkorange 2px solid ;     
+}
+
+/* works */ 
+
+.works {
+    text-align: center ; 
+    margin-bottom: 50px;
+}
+
+#works-title {
+    text-transform: uppercase ;
+    font-weight: 400 ; 
+}
+
+.works-content {
+    margin-bottom: 60px;
+}
+
+.works-img {
+    height: 91% ; 
+    width :93%;
+    border-radius: 4px;
+    margin-bottom: 40px;
+    transition: .7s all ;
+}
+
+#show-more {
+    margin-top: 50px;
+}
+
+.btn-outline-dark {
+    border-width: .3px ;
+    transition: .5s all ;
+    height: 35px;
+    width : 120px;
+    font-size: 12px;
+    border-radius: 5px;
+    text-transform: uppercase ; 
+    border-color: rgba(49, 57, 60, .9) ;
+    opacity: .8;
+    transition: .4s all ;
+}
+
+.btn-outline-dark:hover {
+   opacity: 1; 
+   transform: scale(1.1) ;
+   background-color: rgba(49, 57, 60, .9) ;
+}
+
+.works .container .row .item {
+    transition: 1.5s all ; 
+}
+
+.works .container .row .item .over {
+    background-color: rgba(247, 96, 14, .9) ; 
+    color: white ;
+    position: absolute ;
+    top: 0 ; 
+    left: 0 ; 
+    margin-left: 7% ;
+    height: 91%  ; 
+    width: 85.8%;
+    border-radius: 4px;
+    padding: 20px;
+    display: none; 
+} 
+.works .container .row .item:hover .over {
+    display: block ;
+}
+
+.over-head {
+    margin-top: 20px; 
+    font-weight: 600 ;
+}
+
+#show-more::after {
+    border: 1px darkorange solid ;
+}
+
+#over-btn {
+    background-color: white  ;
+    color: darkorange ;
+    border-color: darkorange ;
+    border-width: .3px ;
+    transition: .5s all ;
+    height: 35px;
+    width : 120px;
+    font-size: 12px;
+    border-radius: 5px;
+    text-transform: uppercase ; 
+    transition: .4s all ; 
+}
+
+#over-btn:hover {
+    transform: scale(1.1) ;
+}
+
+
+.hidden {
+    display: none ; }  
+
+
+    /* Quotes */ 
+
+    
+    .test {
+        margin-top: 150px;
+        margin-bottom: 100px;
+        height: 400px ; 
+        width: 100% ;
+        text-align: center ; 
+        background-image: url("../imgs/testmon.jpg");
+    }
+
+    .carousel-control-prev {
+        margin-top: 100px;
+    }
+    .carousel-control-next {
+        margin-top: 100px;
+    }
+    .blockquote {
+       color: white ; 
+       font-weight: 500 ;
+       font-size: 15px;
+       bottom: 10 ; 
+    }
+
+   .test .overlay #carsuol-img {
+        width: 150px;
+        margin-top: 50px; 
+        margin-bottom: 50px; 
+        color: orange ;
+        transition: .5s all ; 
+    }
+
+    .test .overlay #carsuol-img:hover {
+        transform: scale(1.1) ; 
+    }
+
+
+    /* Team */ 
+ 
+    .team {
+        text-align: center ;
+    }
+    .team-head {
+        text-transform: uppercase ;
+    }
+
+    .team-head-content {
+        margin-bottom: 70px;
+    }
+
+   
+    .person {
+          text-align: center ; 
+          width: 150px;
+    }
+    .person-img {
+        margin-bottom: 10px;
+        width: 150px;
+        filter: grayscale(1) ; 
+        transition: .2s all ; 
+    }
+
+   .person-name {
+       text-transform: uppercase ;
+       color: gray ;
+   }
+
+
+   .person-content {
+       font-size: 11px;
+       color: gray ;
+   }
+
+   .social {
+       margin-bottom: 8px; 
+       color: gray ;
+   }
+
+   .team-content {
+       margin-left: 80px;
+   }
+
+   .person:hover .person-img {
+    border-bottom: 2px darkorange solid ; 
+    transform: scale(1.1) ;
+    filter: grayscale(0) ;
+    margin-bottom: 10px;
+}
+
+.person:hover  .social .fa-facebook-square {
+    color: #3b5998 ; 
+}
+
+.person:hover  .social .fa-twitter-square {
+    color: #1da1f2 ; 
+}
+
+.person:hover  .social .fa-google-plus-square {
+    color: #dd4b39 ; 
+}
+
+.person:hover .person-name  {
+    margin-top: 10px;
+    color : rgb(33, 37, 41) ; 
+}
+
+.person:hover .person-content  {
+    color : rgb(33, 37, 41) ; 
+}
+
+/** contact Start */ 
+
+.contact {
+    width: 100% ; 
+    background-image: url("../imgs/contact.jpg")  ;
+    margin-top: 100px;
+    text-align: center ; 
+}
+
+.contact-head {
+    text-transform: uppercase ;
+    color :white ; 
+    opacity: .9 ; 
+}
+
+.contact-head-content {
+    color: white ; 
+    opacity: .9 ; 
+}
+
+#contact-name {
+    width: 70% ;
+    margin : 0 auto ;
+}
+
+#contact-subject {
+    width: 70% ; 
+    margin: 0 auto ; 
+    margin-top: 20px;
+}
+
+#contact {
+    margin-top : 60px; 
+}
+
+#my-textarea {
+    width: 70%;
+    height: 200px;
+    margin: 0 auto ;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.contact-submit {
+    margin : 0 auto ;
+    background-color: darkorange  ;
+    border-color: white ;
+    border-width: .3px ;
+    transition: .5s all ;
+    height: 35px;
+    width : 120px;
+    font-size: 12px;
+    border-radius: 5px;
+    text-transform: uppercase ; 
+    border-color: darkorange ;
+    opacity: .9;
+    transition: .4s all ;
+}
+
+
+/* footer */ 
+
+.footer {
+    background-color: rgb(33, 37, 41) ;
+    margin-bottom: 0 ;
+}
+
+.copywrites {
+    margin-top: 10px;
+    text-transform: uppercase ;
+    color: white ; 
+    opacity: .8;
+}
+
+
